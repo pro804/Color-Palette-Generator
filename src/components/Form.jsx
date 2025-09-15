@@ -21,7 +21,7 @@ const Form = () => {
           onChange={(e) => {
             setColor(e.target.value);
           }}
-          placeholder="#af2d26"
+          placeholder="#f15025"
         />
         <button className="btn" type="submit" style={{ background: color }}>
           Submit
