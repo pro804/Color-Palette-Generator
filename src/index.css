@@ -293,10 +293,18 @@ input[type="color"] {
 }
 
 .colors {
-  min-height: calc(100vh - 160px);
+  min-height: calc(99vh - 160px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+.color:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow-2);
+  transform: scale(105%);
+  border-radius: 0.75rem;
+  transition: var(--transition);
+  z-index: 1;
 }
 .color {
   padding: 1rem 2rem;
