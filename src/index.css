@@ -259,9 +259,7 @@ ul {
   row-gap: 1.5rem;
   height: 160px;
 }
-.container h4 {
-  font-weight: 500;
-}
+
 .color-form {
   display: flex;
 }
@@ -283,7 +281,6 @@ input[type="color"] {
   letter-spacing: 3px;
   transition-duration: 0s;
 }
-
 @media screen and (min-width: 768px) {
   .container {
     grid-template-columns: auto 1fr;
@@ -294,8 +291,9 @@ input[type="color"] {
     height: 40px;
   }
 }
+
 .colors {
-  min-height: calc(100vh-160px);
+  min-height: calc(100vh - 160px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
