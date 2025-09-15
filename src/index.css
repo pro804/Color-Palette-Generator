@@ -253,3 +253,21 @@ ul {
   margin-top: 1rem;
 }
 /* ============= PROJECT CSS =============== */
+.container {
+  padding: 2rem;
+  display: grid;
+  row-gap: 1.5rem;
+  height: 160px;
+}
+.container h4 {
+  font-weight: 500;
+}
+.color-form {
+  display: flex;
+}
+input[type="text"] {
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  max-width: 200px;
+}
